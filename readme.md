@@ -6,8 +6,8 @@ Teaching points can be memorized and recalled.
 
 ## point_save
 
-TP プログラムにて、付加命令ｻｷｼﾞｯｺｳ ﾎﾟｲﾝﾄﾛｼﾞｯｸ 0.00s で、  
-point_save を呼び出します。
+In the TP program, with the additive instruction Sakijikko Point Logic 0.00s  
+Call point_save.
 
 ### Argument 1
 
@@ -15,13 +15,13 @@ Specify in order from the teaching point 1,2,3,4... and specify in integer syste
 
 ### Argument 2
 
-各軸動作の場合には無しまたは 0、  
-直線動作の場合には 1 を指定して下さい。
+None or 0 for individual axis moves, 1 for linear moves.  
+1 for a linear move.
 
 ## point_load
 
-point_save で登録した位置情報を呼び出し、  
-戻り動作を行います。
+The location information registered with point_save is recalled and the  
+The return operation is performed.
 
 ## Configuration Change
 
